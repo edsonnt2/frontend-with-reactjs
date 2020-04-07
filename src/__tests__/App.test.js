@@ -27,7 +27,7 @@ describe("App component", () => {
       id: "123",
       url: "https://github.com/josepholiveira",
       title: "Desafio ReactJS",
-      techs: ["React", "Node.js"],
+      techs: "React, Node.js",
     });
 
     await actWait();
@@ -49,7 +49,7 @@ describe("App component", () => {
         id: "123",
         url: "https://github.com/josepholiveira",
         title: "Desafio ReactJS",
-        techs: ["React", "Node.js"],
+        techs: "React, Node.js",
       },
     ]);
 
